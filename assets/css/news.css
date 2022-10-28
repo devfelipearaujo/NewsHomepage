@@ -10,11 +10,14 @@
     color: var(--laranja-claro);
 }
 
-.subtitulo {
+.subtitulo-link {
     font-size: var(--fs-h3);
     font-weight: var(--fw-bold);
     color: var(--off-white);
-    margin: 2rem 0 1rem 0;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .news__texto {
@@ -37,6 +40,10 @@
     .news {
         margin-top: 0;
         width: 32%;
+    }
+
+    .subtitulo-link:hover {
+        color: var(--laranja-claro);
     }
 }
 

@@ -38,4 +38,8 @@
         color: var(--cinza-azulado-escuro);
         text-decoration: none;
     }
+
+    .menu__link:hover {
+        color: var(--vermelho-claro);
+    }
 }
