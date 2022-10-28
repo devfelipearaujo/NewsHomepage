@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho__logo" src="./assets/images/logo.svg" alt="Logo">
+    <img class="menu-hamburguer" src="./assets/images/icon-menu.svg" alt="Menu">
+    <nav class="menu-desktop">
+      <ul class="menu__lista">
+        <li class="menu__item"><a class="menu__link" href="">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="">New</a></li>
+        <li class="menu__item"><a class="menu__link" href="">Popular</a></li>
+        <li class="menu__item"><a class="menu__link" href="">Trending</a></li>
+        <li class="menu__item"><a class="menu__link" href="">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="grid">
+    <section class="principal">
+      <div class="principal__imagem"></div>
+      <div class="principal__container">
+        <h1 class="principal__titulo">The Bright Future of Web 3.0?</h1>
+        <div class="principal__texto">
+          <p class="principal__descricao">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?</p>
+          <a class="principal__btn" href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <h2 class="titulo__secundario">New</h2>
+      <h3 class="subtitulo">Hydrogen VS Electric Cars</h3>
+      <p class="news__texto">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <h3 class="subtitulo">The Downsides of AI Artistry</h3>
+      <p class="news__texto">What are the possible adverse effects of on-demand AI image generation?</p>
+      <h3 class="subtitulo">Is VC Funding Drying Up?</h3>
+      <p class="news__texto">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </section>
+
+    <section class="maisAcessados">
+      <ol class="maisAcessados__container">
+        <li class="maisAcessados__item">
+          <img class="maisAcessados__imagem" src="./assets/images/image-retro-pcs.jpg" alt="">
+            <div class="maisAcessados__texto">
+                  <p class="maisAcessados__posicao">01</p>
+                  <a class="maisAcessados__link" href="">Reviving Retro PCs</a>
+                  <p class="maisAcessados__descricao">What happens when old PCs are given modern upgrades?</p>
+            </div>
+        </li>
+        <li class="maisAcessados__item">
+          <img class="maisAcessados__imagem" src="./assets/images/image-top-laptops.jpg" alt="">
+            <div class="maisAcessados__texto">
+                  <p class="maisAcessados__posicao">02</p>
+                  <a class="maisAcessados__link" href="">Top 10 Laptops of 2022</a>
+                  <p class="maisAcessados__descricao">Our best picks for various needs and budgets.</p>
+            </div>
+        </li>
+        <li class="maisAcessados__item">
+          <img class="maisAcessados__imagem" src="./assets/images/image-gaming-growth.jpg" alt="">
+            <div class="maisAcessados__texto">
+                  <p class="maisAcessados__posicao">03</p>
+                  <a class="maisAcessados__link" href="">The Growth of Gaming</a>
+                  <p class="maisAcessados__descricao">How the pandemic has sparked fresh opportunities.</p>
+            </div>
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>

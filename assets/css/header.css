@@ -1,0 +1,41 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    width: 50px;
+}
+
+.main__img {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+
+.menu-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: block;
+    }
+
+    .menu__lista {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .menu__link {
+        font-size: var(--fs-regular);
+        font-weight: var(--fw-regular);
+        color: var(--cinza-azulado-escuro);
+        text-decoration: none;
+    }
+}

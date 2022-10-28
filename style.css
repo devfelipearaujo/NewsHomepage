@@ -1,0 +1,51 @@
+@import url(./assets/css/header.css);
+@import url(./assets/css/principal.css);
+@import url(./assets/css/news.css);
+@import url(./assets/css/maisAcessados.css);
+
+:root {
+    /* Cores */
+    --laranja-claro: hsl(35, 77%, 62%);
+    --vermelho-claro: hsl(5, 85%, 63%);
+    --off-white: hsl(36, 100%, 99%);
+    --cinza-azulado-claro:hsl(233, 8%, 79%);
+    --cinza-azulado-escuro: hsl(236, 13%, 42%);
+    --azul-escuro: hsl(240, 100%, 5%);
+
+    /* Font-Families */
+    --ff-main:'Inter', sans-serif;
+
+    /* Font-Sizes */
+    --fs-h1: 40px;
+    --fs-h2: 30px;
+    --fs-h3: 20px;
+    --fs-h4: 18px;
+    --fs-p: 15px;
+
+    /* Font-Weights */
+    --fw-regular:400;
+    --fw-bold:700;
+    --fw-extra-bold:800;
+
+    /* Line-height */
+    --lh-regular: 1.5rem;
+}
+
+body {
+    font-family: var(--ff-main);
+    background-color: var(--off-white);
+    padding: 2rem 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 4rem 6rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    :root {
+        --fs-h1: 50px;
+    }
+}
