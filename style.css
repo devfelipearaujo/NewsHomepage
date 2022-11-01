@@ -11,6 +11,7 @@
     --cinza-azulado-claro:hsl(233, 8%, 79%);
     --cinza-azulado-escuro: hsl(236, 13%, 42%);
     --azul-escuro: hsl(240, 100%, 5%);
+    --preto: #000000;
 
     /* Font-Families */
     --ff-main:'Inter', sans-serif;
@@ -24,6 +25,7 @@
 
     /* Font-Weights */
     --fw-regular:400;
+    --fw-semi-bold:500;
     --fw-bold:700;
     --fw-extra-bold:800;
 
